@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav class="container">
     <header>
       <a className="nav-a" href="/">
         <img v-bind:src="back" class="back" alt="logo"/>
@@ -28,7 +28,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 20px;
+      padding-top: 20px;
     }
     .back {
       width: 40px !important;
