@@ -1,24 +1,17 @@
 <template>
   <nav class="container">
     <header>
-      <a className="nav-a" href="/">
-        <img v-bind:src="back" class="back" alt="logo"/>
+      <a target="_blank" rel="noopener noreferrer" className="nav-a" href="https://www.adithyabhat.com/">
+        <img src="https://www.adithyabhat.com/static/media/adithya1.a0fbc905.png" class="back" alt="logo"/>
       </a>
-      <a class="home" href="https://www.adithyabhat.com/">Home</a>
     </header>
   </nav>
 </template>
 
 <script>
-    import back from '../assets/Arrow.png'
 
     export default {
-        name: 'Nav',
-        data() {
-          return {
-            back
-          }
-        }
+        name: 'Nav'
     }
 
 </script>
@@ -31,7 +24,7 @@
       padding-top: 20px;
     }
     .back {
-      width: 40px !important;
+      width: 60px !important;
     }
     .home {
       color: #444;
