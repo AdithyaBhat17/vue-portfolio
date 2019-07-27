@@ -5,7 +5,7 @@
         <img src="https://www.adithyabhat.com/static/media/adithya1.a0fbc905.png" class="back" alt="logo"/>
       </a>
       <button v-on:click="toggleTheme">
-        <span aria-label="light">{{dark ? '✨' : '🌜'}}</span>
+        <span :aria-label="dark ? 'light' : 'dark'" >{{dark ? '✨' : '🌜'}}</span>
       </button>
     </header>
   </nav>
