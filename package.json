@@ -10,7 +10,7 @@
   "dependencies": {
     "circular-std": "^1.0.3",
     "core-js": "^3.4.3",
-    "vue": "^2.6.10"
+    "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",
@@ -19,6 +19,6 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^6.0.1",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.11"
   }
 }
