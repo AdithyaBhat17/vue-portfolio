@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "circular-std": "^1.0.3",
-    "core-js": "^3.4.3",
+    "core-js": "^3.6.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
